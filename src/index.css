@@ -1,0 +1,29 @@
+/* src/index.css */
+
+/* Reset some default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input[type="number"], button {
+  font-size: 16px;
+}
+
+h1, h3 {
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
